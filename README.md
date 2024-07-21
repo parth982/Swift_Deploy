@@ -4,6 +4,10 @@
 
 Swift Deploy is a comprehensive deployment solution that automates the build, deployment, and delivery of static assets. It supports deploying static sites directly from a GitHub URL and features real-time log streaming and a reverse proxy to serve static content from an S3 bucket.
 
+## Architecture
+
+![Architecture Diagram](SwiftDeploy.png)
+
 ## Components
 
 This project contains the following services and folders:
@@ -25,7 +29,3 @@ This project contains the following services and folders:
 - **AWS ECS**: Orchestrates and manages Docker containers used in the build and deployment process.
 - **AWS ECR**: Stores Docker images used by the ECS tasks for building and deploying applications.
 
-
-## Architecture
-
-![Architecture Diagram](SwiftDeploy.png)
