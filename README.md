@@ -2,7 +2,7 @@
 
 ## Overview
 
-Swift Deploy is a comprehensive deployment solution that automates the build, deployment, and delivery of static assets. It supports deploying static sites directly from a GitHub URL and features real-time log streaming and a reverse proxy to serve static content from an S3 bucket.
+Swift Deploy is a comprehensive deployment solution that automates the build, deployment providing a static preview link of Application. It supports deploying static sites directly from a GitHub URL and features real-time log streaming and a reverse proxy to serve content from an S3 bucket.
 
 ## Architecture
 
